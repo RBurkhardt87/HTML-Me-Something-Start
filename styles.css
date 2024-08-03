@@ -17,13 +17,13 @@ header {
     font-family: "Arial";
     text-align: center;
     color: black;
-    background-color: rgb(0, 128, 128);
-    padding: 8px;
+    background-color: rgb(63, 112, 96);
+    padding: 10px;       
 }
 
 main {
     width: 100vw;
-    padding: 30px;
+    padding: 70px 35px;
     box-sizing: border-box;    
 }
 
@@ -31,24 +31,80 @@ footer {
     font-family: 'Times New Roman';
     color: black;
     background-color: rgb(248, 83, 23);
-    padding: 8px;
+    padding: 20px;
+    margin-top: 100px;
 }
 
+/* Mess with the table some more */
 table {
     text-align: center;
     
 }
 
+hr {
+    color: white;
+}
+
+
+h3 {
+    margin-top:50px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(18, 18, 18);
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: orangered;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:visited {
+    color: rgb(63, 112, 96);
+}
+
+
 
 /* IDS */
 #mainHeading {
     color: red;
-    font-size: 28pt;
+    font-size:3.5rem;
 }
 
 #testP {
     color: blue;
 }
+
+#floaterPic {
+    width: 425px;
+    height: 550px;
+    float: right;
+    padding:20px;
+    
+}
+
+#oddBallPic {
+    width: 375px;
+    height: 275px;
+    margin: 8px;
+    padding: 30px;
+    border: dotted; 
+
+}
+
+#fancyWord {
+    color : rgb(244, 13, 128);
+    font-style: italic;
+    font-size: 20pt;
+}
+
+
 
 
 /* CLASSES */
@@ -60,17 +116,22 @@ table {
     width: 350px;
     height: 250px;
     margin: 5px;
+   
 }
 
 .verticalPic {
     width: 250px;
     height: 350px;
+    margin: 8px;
+    padding: 30px;
+    border: dotted;   
 }
 
 .tablePic {
     width: 100px;
     height: 100px;
 }
+
 
 
 /* REQUIREMENTS:
