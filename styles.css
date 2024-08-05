@@ -22,7 +22,7 @@ header {
 
 main {
     width: 100vw;
-    padding: 70px 35px;
+    padding: 50px 35px;
     box-sizing: border-box;    
 }
 
@@ -145,4 +145,5 @@ th {
     width: 100px;
     height: 100px;
 }
+
 
